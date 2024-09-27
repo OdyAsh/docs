@@ -1,0 +1,1 @@
+mkdocs build -c -f mkdocs.yml -d $PWD/build/docs
