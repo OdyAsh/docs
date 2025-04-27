@@ -18,9 +18,20 @@ A cut-down version of the BATIK questions for humans (with all the Qur'an search
 
 ### Results
 
+#### Ansari 2.0
+
 On the full Batik v1 set, Ansari gets **96%**. However there is some variation between runs and it could be anywhere between 94 and 97% depending on the run. 
 
 On the human cut down version of Batik v1, Ansari gets **83 out of 86**. 
+
+#### Ansari 3.0
+
+Ansari 3.0 has achieved **100% accuracy** on the BATIK assessment. Additionally, **65% of answers now contain citations to authentic Islamic sources**, providing users with greater confidence in the information provided.
+
+### Detailed Reports
+
+- [**Full BATIK Assessment Report (PDF)**](batik/batik_report_3.0.pdf)
+- [**Interactive BATIK Quiz**](batik/batik_one_by_one_quiz_en.html)
 
 ### Additional experiments
 

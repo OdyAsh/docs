@@ -1,0 +1,26 @@
+.wy-side-nav-search, .wy-nav-top {
+    background-color: #1B5E20;
+}
+
+/* Override the caption styling to match other nav items */
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+    color: #fff; /* Match the color of regular nav items */
+    text-transform: none; /* Remove all-caps transformation */
+    font-weight: normal;
+}
+
+.wy-nav-side {
+    background-color: #263238;
+}
+
+a {
+    color: #2E7D32;
+}
+
+a:hover {
+    color: #1B5E20;
+}
+
+.wy-nav-content-wrap {
+    background-color: white;
+}

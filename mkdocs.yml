@@ -1,5 +1,5 @@
-site_name: Ansari
-site_url: https://beta.ansari.chat/docs
+site_name: Ansari Documentation
+site_url: https://docs.ansari.chat
 nav:
   - Home: index.md
   - What Ansari can do: capabilities.md
@@ -8,6 +8,10 @@ nav:
   - Additional material: material.md
   - Privacy policy: privacy.md
   - Terms of service: terms.md
+  - Support: support.md
 
 theme: readthedocs
+
+extra_css:
+  - css/extra.css
 
