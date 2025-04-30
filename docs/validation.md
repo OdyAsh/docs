@@ -31,7 +31,7 @@ Ansari 3.0 has achieved **100% accuracy** on the BATIK assessment. Additionally,
 ### Detailed Reports
 
 - [**Full BATIK Assessment Report (PDF)**](batik/batik_report_3.0.pdf)
-- [**Interactive BATIK Quiz**](batik/batik_one_by_one_quiz_en.html)
+- [**Interactive BATIK Quiz**](batik/batik_quiz_v2_en.html)
 
 ### Additional experiments
 
