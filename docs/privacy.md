@@ -40,7 +40,7 @@ You have the following choices regarding your information:
 
 - Access and Update: You can access and update your information in your account settings.
 - Deletion: You can delete your account at any time. Upon deletion of your account, we will delete your information, except for any information we are required to retain by law.
-- If you used a gest account and accidentally shared information, you can send a request to feedback@ansari.chat to request its removal. 
+- If you used a guest account and accidentally shared information, you can send a request to feedback@ansari.chat to request its removal. 
 
 ## Children's Privacy
 

@@ -17,7 +17,7 @@ Please send to [feedback@ansari.chat]("mailto:feedback@ansari.chat"). It is chec
 Ansari 2.0 and below use GPT-4-Turbo from [OpenAI](https://openai.com). We have also tried GPT-3.5-Turbo, but the accuracy really suffers. In one test, GPT-4-Turbo running Ansari got 97% accuracy; GPT-3.5-Turbo with identical prompts, tools etc, only got 77% accuracy. 
 
 Ansari 3.0 use Claude 3.7 Sonnet from [Anthropic](https://anthropic.com). 
-Sonnet was selected because if its better results over GPT-4.0 and in particular
+Sonnet was selected because of its better results over GPT-4.0 and in particular
 its ability to make citations and references. 
 
 ## How is it different to GPT-4-Turbo or Sonnet, then? 
