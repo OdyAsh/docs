@@ -1,0 +1,38 @@
+IMPORTANT NOTE: Thoroughly check the chapters below; they usually contain the most up-to-date information (as some info in the video itself may get outdated).
+
+Chapters:
+
+00:00 Intro to Ansari Backend
+00:28 VSCode Global Search
+01:07 VSCode Page Navigation
+01:29 Project Structure Overview
+01:43 data/
+02:44 diskcache_dir/
+02:56 docs/
+07:31 sql/ (Deprecated; replaced with Mongo. Source: https://github.com/ansari-project/ansari-backend/pull/154)
+12:49 DBeaver Tool
+14:42 tests/
+23:20 .vscode/
+24:28 .python-version (Deprecated; replaced with .python-version. Source: https://devcenter.heroku.com/changelog-items/3141)
+26:34 Procfile
+28:47 pyproject.toml and ruff
+37:04 pytest.ini
+38:39 README.md
+39:20 Markdown For All Extension
+40:04 requirements.txt (Deprecated; replaced with uv.lock. Source: https://github.com/ansari-project/ansari-backend/commit/80514898a8583bb8ed287d0da68b4776416c71fa. Reason was provided at the end of this commit: https://github.com/ansari-project/ansari-backend/pull/112#issue-2870145577)
+42:22 setup_database.py (Deprecated; replaced with Mongo. Same source as above)
+
+Assalamualaikum and Welcome to our first video in this series explaining the Ansari backend repository! In this session, we'll provide a comprehensive walkthrough of the project's structure, key folders, and essential root files, making it easier for newcomers and contributors to understand how everything fits together.
+
+What you'll learn in this video:
+
+• An overview of the Ansari backend repo and its main logic
+• Tips for navigating the codebase efficiently using VSCode shortcuts (global search, page navigation)
+• A detailed explanation of most major folders in the repo.
+• Best practices for code quality and CI/CD, including the use of Ruff for linting and enforcing coding standards
+• How to set up your local development environment and database
+• Useful tips for documentation, dependency management, and troubleshooting
+
+This video is designed to help you get up to speed with the Ansari backend repo, whether you're a new team member, an open-source contributor, or just curious about the project's architecture. Be sure to check out the README and linked resources for more details, and stay tuned for the next videos in the series where we'll dive deeper into the source code and core logic!
+
+If you have any questions, feedback, or suggestions for future videos, leave a comment below! :] 🙌

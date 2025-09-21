@@ -1,3 +1,6 @@
+# VSCode settings per user
+.vscode/settings.json
+
 # Build output directory
 build/
 
