@@ -50,6 +50,11 @@ If you have any questions, feedback, or suggestions for future videos, leave a c
 • Ansari iOS App: https://apps.apple.com/us/app/ansari-chat/id6743072108
 • DBeaver Tool: https://dbeaver.io/
 
+▬▬ 🗣️ Content Creation Details ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+• This video is part of the Ansari Backend series:  https://www.youtube.com/playlist?list=PLNVULOJciLkTEbs8t4bEEIgEbxIQnK9VE
+• Details and assets related to the creation of this series: https://github.com/ansari-project/docs/tree/main/docs/recordings/ansari_backend
+
 ▬▬ 🤝 Connect with us  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 • Email: feedback@ansari.chat
