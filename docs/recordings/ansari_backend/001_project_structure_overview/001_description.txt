@@ -1,6 +1,8 @@
+An overview of the Ansari backend's code structure, key files, VSCode navigation tips, CI/CD practices, and development environment setup.
+
 IMPORTANT NOTE: Thoroughly check the chapters below; they usually contain the most up-to-date information (as some info in the video itself may get outdated).
 
-Chapters:
+▬▬ ⏱️ Timestamps  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 00:00 Intro to Ansari Backend
 00:28 VSCode Global Search
@@ -22,6 +24,8 @@ Chapters:
 40:04 requirements.txt (Deprecated; replaced with uv.lock. Source: https://github.com/ansari-project/ansari-backend/commit/80514898a8583bb8ed287d0da68b4776416c71fa. Reason was provided at the end of this commit: https://github.com/ansari-project/ansari-backend/pull/112#issue-2870145577)
 42:22 setup_database.py (Deprecated; replaced with Mongo. Same source as above)
 
+▬▬ ℹ️ Details  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
 Assalamualaikum and Welcome to our first video in this series explaining the Ansari backend repository! In this session, we'll provide a comprehensive walkthrough of the project's structure, key folders, and essential root files, making it easier for newcomers and contributors to understand how everything fits together.
 
 What you'll learn in this video:
@@ -36,3 +40,16 @@ What you'll learn in this video:
 This video is designed to help you get up to speed with the Ansari backend repo, whether you're a new team member, an open-source contributor, or just curious about the project's architecture. Be sure to check out the README and linked resources for more details, and stay tuned for the next videos in the series where we'll dive deeper into the source code and core logic!
 
 If you have any questions, feedback, or suggestions for future videos, leave a comment below! :] 🙌
+
+▬▬ 🔗 Relevant Links  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+• Ansari Backend Repo: https://github.com/ansari-project/ansari-backend
+• Ansari Chat: https://ansari.chat/
+• Ansari WhatsApp: https://wa.me/16506563971
+• Ansari Android App: https://play.google.com/store/apps/details?id=chat.ansari.app&hl=en
+• Ansari iOS App: https://apps.apple.com/us/app/ansari-chat/id6743072108
+• DBeaver Tool: https://dbeaver.io/
+
+▬▬ 🤝 Connect with us  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+• Email: feedback@ansari.chat
