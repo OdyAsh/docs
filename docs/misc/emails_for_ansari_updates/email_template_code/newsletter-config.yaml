@@ -1,0 +1,124 @@
+# Ansari Newsletter Configuration
+# Edit this file to customize your newsletter content
+
+newsletter:
+  title: "Ansari Update - May 2025"
+  greeting: "Assalamu alaikum wa rahmatullahi wa barakatuh!"
+  unsubscribe_text: "You are receiving this e-mail because you signed up to the Ansari updates mailing list, or because you have created an account on ansari.chat. Feel free to unsubscribe if you don't feel this is relevant."
+  unsubscribe_link: "https://chat.us21.list-manage.com/unsubscribe?u=6a15c921d5877515bdc472d7c&id=086ac2ad2d&t=b&e=%5BUNIQID%5D&c=46443b1900"
+
+# Logo and branding
+branding:
+  logo_url: "https://drive.google.com/thumbnail?id=1c_R39pQEorZ3w_1uC9Z8l2_O5YzDPso2&sz=w200-h200"
+  logo_alt: "Ansari Logo"
+
+# Highlight section - bullet points that appear at the top
+highlights:
+  title: "In this edition of Ansari Update:"
+  icon: "https://drive.google.com/thumbnail?id=1ctrBYOjrCyIWDPHFDiUuBthUm9cyI4QI"
+  highlights_list:
+    - "**Ansari v3** now available on Web, WhatsApp, Android, and iOS!"
+    - "**User Experience Improvements** across all platforms"
+    - "**Online Quiz** Can you outperform Ansari on an Islamic Quiz?"
+    - "**Behind the Scenes** technical enhancements"
+    - "**Recognition and Gratitude** for our contributors"
+    - "**Call to Action** review and rate the mobile app and share widely"
+
+# Main content sections
+sections:
+  - type: "platforms"
+    title: "Ansari v3: Available on Web, WhatsApp, Android and iOS!"
+    icon: "https://drive.google.com/thumbnail?id=1AukIIHwk44vaEhFTn--8VtGzl1JYRVg9"
+    description: "Just six months after our last release, we've expanded Ansari to be available wherever you need it:"
+    platforms:
+      - name: "Web"
+        link: "https://ansari.chat"
+        link_text: "ansari.chat"
+        icon: "https://drive.google.com/thumbnail?id=1NqIg3CuP0cr-B7VIh3uJ3CsEjC2d01Sd"
+      - name: "WhatsApp"
+        link: "https://wa.me/16506563971"
+        link_text: "+1 650 656 3971"
+        icon: "https://drive.google.com/thumbnail?id=1kNwgDE1P0EjQ_UjdFJeOlPIUUxcD1L03"
+      - name: "Android"
+        link: "https://play.google.com/store/apps/details?id=chat.ansari.app&pcampaignid=web_share"
+        link_text: "Google Play Store"
+        icon: "https://drive.google.com/thumbnail?id=1aGsNzoaUpHSg_guBxGhsUyk_Mc4j9NT9"
+      - name: "iOS"
+        link: "https://apps.apple.com/us/app/ansari-chat/id6743072108"
+        link_text: "Apple App Store"
+        icon: "https://drive.google.com/thumbnail?id=1-fZFuN4jyou1z0nfo93uM0aU1NFzCVtu"
+    footer_text:
+      - "When using Web, iOS or Android, your chat history is preserved when you are logged in."
+      - "*Please help Ansari Chat spread by rating and reviewing the mobile apps!*"
+
+  - type: "features"
+    title: "User Experience Improvements"
+    icon: "https://drive.google.com/thumbnail?id=1-If8SVPDgHrlUliLdpkfzzDEPEKdl3v-"
+    description: "In addition to the wider platform availability, we've made several improvements to enhance daily interactions with Ansari:"
+    features:
+      - title: "Reduced Hallucinations"
+        description: "The Claude 3.7 Sonnet + RAG system provides more accurate, grounded responses"
+      - title: "Improved Citations"
+        description: "More precise references to Quran, Hadith, and scholarly sources"
+      - title: "Tafsir Encyclopedia Integration"
+        description: "Access to detailed Quranic interpretations through our collaboration with the Usul.ai team"
+      - title: "Responsive Design"
+        description: "Improved experience across screen sizes"
+      - title: "Mobile Optimization"
+        description: "Better keyboard handling and text input"
+
+  - type: "content"
+    title: "Can you beat Ansari on an Islamic Quiz?"
+    icon: "https://drive.google.com/thumbnail?id=1Udwr9g61IRTajgmYUjohRuHJCtd0MhyC"
+    paragraphs:
+      - "Accuracy has always been a key focus of our efforts on Ansari. In preparation for Ansari v3, we evaluated the BATIK (Basic Automated Test of Islamic Knowledge) dataset on it. BATIK consists of 100 multiple choice questions. Ansari scored 100%. More impressively, however, 65% of its answers included references to Qur'an, Hadith, or highly respected Islamic Encyclopedias. More details [here](https://docs.ansari.chat/validation/#batik-v1) including detailed answers from Ansari."
+      - "To help promote Ansari v3 and show what AI is capable of, we also have an [interactive quiz](https://docs.ansari.chat/batik/batik_one_by_one_quiz_en.html) where people can pit themselves against the AI and see Ansari's actual answers. When you do the quiz, it will give you an image that you can post on social media. Let us know what your score is!"
+
+  - type: "content"
+    title: "Behind the Scenes"
+    icon: "https://drive.google.com/thumbnail?id=1a6iXO_t84QFwUIU6Kc9cpuxKQHbViBi2"
+    paragraphs:
+      - "For those who are curious about how Ansari works, we wanted to take you behind the scenes. Feel free to skip this section if you're not interested."
+      - "While some of the improvements are user visible, many of Ansari v3's most significant improvements are in the underlying technology. A reminder that we are open source, and that both the [frontend](https://github.com/ansari-chat/ansari-frontend) and the [backend](https://github.com/ansari-chat/ansari-backend) are available as open source on GitHub."
+    technical_list:
+      - "**MongoDB Implementation**: Moved from SQL to MongoDB for better handling of complex messaging"
+      - "**Enhanced Search Tools**: Added Tafsir Encyclopedia and Usul.ai integration"
+      - "**React Native Framework**: Rebuilt interface for cross-platform support"
+      - "**Improved CI/CD Pipeline**: Automated testing and deployment processes for faster, more reliable releases"
+      - "**Containerized Infrastructure**: Docker implementation for consistent development and production environments"
+
+  - type: "contributors"
+    title: "Recognition and Gratitude"
+    icon: "https://drive.google.com/thumbnail?id=1Jvbt9UInwL5ZCUa9YZUtDD3rSZkmNUT7"
+    description: "This release would not have been possible without the contributions of several individuals and partners:"
+    contributors:
+      - name: "Amr Mohamed"
+        description: "Has contributed significantly to our backend infrastructure and mobile applications. His work implementing MongoDB migration has given us a more flexible database architecture. Amr has led our error tracking and monitoring initiatives through Sentry integration, improving system reliability. He developed and enhanced our citation handling to ensure accurate references to Islamic sources. Additionally, Amr contributed to mobile development, security improvements, and AWS production infrastructure. Without his contributions, Ansari v3 would not have happened on this timeline."
+      - name: "Ashraf Haress"
+        description: "Has played a key role in our backend development, particularly with the WhatsApp integration and codebase improvements. He implemented crucial aspects of the WhatsApp messaging platform support, including markdown conversion and language direction detection. Ashraf's extensive refactoring work has unified our database architecture to support multiple platforms consistently. His contributions to middleware logging, database schema simplification, and environment variable management have significantly improved our development process and system maintainability."
+      - name: "Abdullah Nahhas"
+        description: "Has contributed to several important aspects of our API and code quality. He developed the workflow execution system that provides a more structured approach to processing user queries. Abdullah has also improved our authentication security with thread ownership checks and token handling enhancements. His implementation of code quality tools like Ruff has significantly improved our development process."
+    additional_thanks:
+      - "We're grateful to **Amin Ahmad**, whose advisory role has guided our strategic and technical decisions. Amin's insights on AI capabilities, Islamic knowledge representation, and user experience have been valuable in shaping Ansari."
+      - "Special thanks to the **Usul.ai team**, particularly **Abdellatif Abdelfattah**, for their partnership. Abdellatif's expertise in Islamic knowledge systems has enhanced Ansari's capabilities. The Tafsir Encyclopedia integration is a result of our collaboration with Abdellatif and the Usul.ai team, providing access to Quranic interpretations and commentary."
+      - "We thank these individuals and all our contributors who have made Ansari v3 possible. Above all, we thank Allah SWT for blessing us with the opportunity to serve the ummah through this work."
+
+  - type: "feedback"
+    title: "Help Shape Ansari V4"
+    icon: "https://drive.google.com/thumbnail?id=1FiLz-iu0bjfqSs7YckahclBjCWFsWj8T"
+    description: "We're beginning to plan for Ansari v4, and we'd appreciate your input. What features would make Ansari more valuable for your Islamic learning? What questions could Ansari answer better? Your feedback directly influences our roadmap."
+    contact_intro: "To share ideas, suggestions, or feedback:"
+    contact_methods:
+      - type: "email"
+        text: "Email: feedback@ansari.chat"
+        link: "mailto:feedback@ansari.chat"
+      - type: "app"
+        text: "Use the app's feedback buttons on any message"
+    closing_text: "We remain committed to making Islamic knowledge accessible to everyone. Your feedback has helped shape Ansari, and we look forward to seeing how these new features support your understanding of Islam."
+
+# Footer content
+footer:
+  signature_text: "Remember us and Ansari in your dua!"
+  signature_icon: "https://drive.google.com/thumbnail?id=1Ms7IhnyemP_iP2j_wIwmH0EuuZuomO94"
+  signature_icon_alt: "Praying hands icon"
+  team_name: "The Ansari Team"

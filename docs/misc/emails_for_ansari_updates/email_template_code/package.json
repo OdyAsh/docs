@@ -1,0 +1,11 @@
+{
+  "name": "ansari-newsletter-template",
+  "version": "1.0.0",
+  "description": "Template system for Ansari newsletter generation",
+  "scripts": {
+    "build": "python build_newsletter.py",
+    "install-deps": "pip install pyyaml jinja2"
+  },
+  "keywords": ["newsletter", "template", "yaml", "email"],
+  "author": "Ansari Team"
+}
